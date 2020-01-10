@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2 class="p-3">Select your mushroom characteristics:</h2>
+    <div id="characteristics" class="container">
+        <div class ="row">
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header">Gill Color</h5>
+                    <img src="/static/img/gill-color.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <select id="gill-color">
+                            <option value="4">Black</option>
+                            <option value="5">Brown</option>
+                            <option value="0">Buff</option>
+                            <option value="3">Chocolate</option>
+                            <option value="2">Gray</option>
+                            <option value="8">Green</option>
+                            <option value="6">Orange</option>
+                            <option value="7">Pink</option>
+                            <option value="9">Purple</option>
+                            <option value="1">Red</option>
+                            <option value="10">White</option>
+                            <option value="11">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header">Spore Print Color</h5>
+                    <img src="/static/img/spore-print.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <select id="spore-print-color">
+                            <option value="2">Black</option>
+                            <option value="3">Brown</option>
+                            <option value="0">Buff</option>
+                            <option value="1">Chocolate</option>
+                            <option value="5">Green</option>
+                            <option value="4">Orange</option>
+                            <option value="6">Purple</option>
+                            <option value="7">White</option>
+                            <option value="8">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header">Population</h5>
+                    <img src="/static/img/population.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <select id="population">
+                            <option value="0">Abundant</option>
+                            <option value="1">Clustered</option>
+                            <option value="2">Numerous</option>
+                            <option value="3">Scattered</option>
+                            <option value="4">Several</option>
+                            <option value="5">Solitary</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-header">Gill Size</h5>
+                    <img src="/static/img/gill-size.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <select id="gill-size">
+                            <option value="0">Broad</option>
+                            <option value="1">Narrow</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center p-3">
+            <button id="submit" type="button" class="btn btn-primary btn-lg">Predict My Mushroom</button>
+        </div>
+    </div>
+
+    <div id="prediction" class="alert" role="alert">
+      Click the button to see your results!
+    </div>
+
+    <div id="charts">
+        <div>
+            <h4>Edible/Poisonous By Characteristic</h4>
+            <div id="chart-canvas2">
+                <canvas id="myChart2" ></canvas>
+            </div>
+        </div>
+
+        <div>
+            <h4>Matching Characteristics</h4>
+            <div id="chart-canvas">
+                <canvas id="myChart" ></canvas>
+            </div>
+        </div>
+
+        <div>
+            <h4>Total Shared Characteristics</h4>
+            <div id="chart-canvas3">
+                <canvas id="myChart3" ></canvas>
+            </div>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+<script type = "text/javascript" src = "{{ url_for('static', filename = 'js/main.js') }}" ></script>
+{% endblock %}

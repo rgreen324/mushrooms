@@ -1,0 +1,6 @@
+2019-11-27 13:58:06.166090
+{'gillColor': 4, 'sporePrintColor': 2, 'population': 0, 'gillSize': 0}
+2019-11-27 14:04:39.930301
+{'gillColor': 3, 'sporePrintColor': 1, 'population': 1, 'gillSize': 0}
+2019-11-27 14:04:48.075072
+{'gillColor': 4, 'sporePrintColor': 1, 'population': 1, 'gillSize': 0}

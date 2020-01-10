@@ -1,1 +1,3 @@
-# mushrooms
+# Mushroom Classification App
+
+The application will be accessible online through most modern web browsers. It will have several key mushroom characteristics that are strong indicators about whether it is edible or poisonous. There will be easy to select options to choose from and there will be several graphics and charts that dynamically change with the different selections. The application will be built using the Python programming language and various libraries to assist in the data exploration and modeling. The user interface will be built using HTML/CSS and JavaScript.

@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div id="about" class="jumbotron">
+        <h1 class="display-4">Hello!</h1>
+        <p class="lead">This app will predict whether a mushroom is edible or poisonous based on characteristics entered
+            by the user. While the results are approximately 98% accurate, it is only intended as a learning tool.
+            Please do not consume any mushrooms classified with this app.</p>
+        <hr class="my-4">
+        <p>The predictions are based on the analysis of the mushroom data set provided by the UC Irvine Machine Learning
+            Repository. To learn more about this data set, please click the button below.</p>
+        <a class="btn btn-primary btn-lg" href="https://archive.ics.uci.edu/ml/datasets/mushroom" role="button">Learn more</a>
+    </div>
+{% endblock %}
