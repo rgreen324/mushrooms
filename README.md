@@ -9,6 +9,9 @@ A simple web application created for a fictional outdoors group to use as an aid
 - Bootstrap
 - Chart.js
 
+## Raw Data Set
+[UC Irvine Machine Learning Repository Mushroom Data Set](https://archive.ics.uci.edu/ml/datasets/mushroom)
+
 ## Screenshots
 ![screenshot 1](/screenshots/ss1.png?raw=true)
 ![screenshot 2](/screenshots/ss2.png?raw=true)
