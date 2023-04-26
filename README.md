@@ -20,7 +20,4 @@ The application processes prediction requests using a REST API built in Flask. T
 
 ## Screenshots
 
-![screenshot 1](/screenshots/ss1.png?raw=true)
-![screenshot 2](/screenshots/ss2.png?raw=true)
-![screenshot 3](/screenshots/ss3.png?raw=true)
-![screenshot 4](/screenshots/ss4.png?raw=true)
+![screenshot 1](/screenshots/ss.png?raw=true)
